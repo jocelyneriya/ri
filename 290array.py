@@ -1,0 +1,9 @@
+n=int(input())
+num=list(map(int,input().split()))
+k=min(num)
+l=max(num)
+o=num.index(k)
+i=num.index(l)
+o=o+1
+i=i+1
+print(o,i)
